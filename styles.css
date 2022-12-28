@@ -1,0 +1,35 @@
+body {
+   margin:0;
+   padding:0;
+   background: url(coffee.jpg);
+   background-size:cover;
+   font-family:sans-serif;
+}
+.title {
+    text-align:center;
+    padding: 50px 0 20px;
+
+}
+.title h1 {
+    margin:0;
+    padding:0;
+    color: #1d9737;
+    text-transform:uppercase;
+    font-size: 36px;
+}
+.container {
+    width: 50%;
+    height: 400px;
+    background: #fff;
+    margin:0 auto;
+    border:2px solid #fff;
+    box-shadow:0 15px 40px rgba(0,0,0,.5)
+}
+.container .left {
+    float:left;
+    width: 50%;
+    height: 400px;
+    background: url(background.jpg);
+    background-size:cover;
+    box-sizing:border-box;
+}
